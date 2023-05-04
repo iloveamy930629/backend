@@ -1,0 +1,171 @@
+{
+    "devices": {
+        "defaultDevice": [
+            {
+                "id": "0",
+                "have": true,
+                "name": "Drug01",
+                "intro": "asdf",
+                "num": "1",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "5",
+                        "id": 0,
+                        "": 0
+                    }
+                ],
+                "image": "https://www.webpagescreenshot.info/image-url/1gk2ouU96"
+            },
+            {
+                "id": "1",
+                "have": false,
+                "name": "",
+                "intro": "",
+                "num": "0",
+                "giveDrug": [],
+                "image": "https://www.webpagescreenshot.info/image-url/1gk2ouU96"
+            },
+            {
+                "id": "2",
+                "have": true,
+                "name": "Drug03",
+                "intro": "",
+                "num": "0",
+                "giveDrug": []
+            },
+            {
+                "id": "3",
+                "have": true,
+                "name": "Drug04",
+                "intro": "",
+                "num": "0",
+                "giveDrug": []
+            },
+            {
+                "id": "4",
+                "have": true,
+                "name": "Drug05",
+                "intro": "",
+                "num": "0",
+                "giveDrug": []
+            },
+            {
+                "id": "5",
+                "have": true,
+                "name": "Drug06",
+                "intro": "",
+                "num": "0",
+                "giveDrug": []
+            }
+        ],
+        "arduino8266": [
+            {
+                "id": "0",
+                "have": true,
+                "name": "Drug01",
+                "intro": "It's for fever.\nplease remembe...\n Don't take too much.",
+                "num": "1",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "1"
+                    },
+                    {
+                        "time": "08:00",
+                        "dose": "1",
+                        "id": 1,
+                        "": 1
+                    }
+                ],
+                "image": "image/pill0.jpg"
+            },
+            {
+                "id": "1",
+                "have": true,
+                "name": "Ibuprofen",
+                "intro": "NSAID,\nFor Headache, Toothache, Arthritis and so on",
+                "num": "30",
+                "giveDrug": [
+                    {
+                        "time": "09:00",
+                        "dose": "1",
+                        "": 0
+                    },
+                    {
+                        "time": "21:00",
+                        "dose": "1",
+                        "": 1
+                    }
+                ],
+                "image": "image/pill1.jpg"
+            },
+            {
+                "id": "2",
+                "have": true,
+                "name": "Drug03",
+                "intro": "Elliptical integrals",
+                "num": "0",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "1"
+                    }
+                ],
+                "image": "image/default.jpg"
+            },
+            {
+                "id": "3",
+                "have": true,
+                "name": "HHH",
+                "intro": "DNE",
+                "num": "0",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "1"
+                    }
+                ],
+                "image": "image/default.jpg"
+            },
+            {
+                "id": "4",
+                "have": true,
+                "name": "Drug05",
+                "intro": "發燒 、 headache",
+                "num": "0",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "1"
+                    }
+                ],
+                "image": "image/pill4.jpg"
+            },
+            {
+                "id": "5",
+                "have": true,
+                "name": "Yaa",
+                "intro": "Cool",
+                "num": "0",
+                "giveDrug": [
+                    {
+                        "time": "06:00",
+                        "dose": "1"
+                    }
+                ],
+                "image": "image/default.jpg"
+            }
+        ]
+    },
+    "accounts": {
+        "ddm4534": {
+            "password": "12345678",
+            "connectedDevice": "defaultDevice"
+        },
+        "ballywang": {
+            "password": "12345678",
+            "connectedDevice": "arduino8266"
+        }
+    }
+}
